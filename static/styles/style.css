@@ -1,0 +1,24 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     padding: 2pm;
+     background-color: whitesmoke;
+     color: black;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 2rem;
+     font-size: 2rem;
+     justify-content: center;
+}
+
+input, button {
+     padding: 1rem;
+     font-size: 2rem;
+     border-radius: 10px;
+}
